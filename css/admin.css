@@ -1,0 +1,48 @@
+/* admin banner secation */
+*{
+    box-sizing: border-box;
+}
+#main-container{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgba(150, 150, 150, 0.384);
+}
+#main-container hr{
+    height: 3px;
+    width: 90%;
+    background-color: rgb(81, 127, 158);
+}
+#main-container #banner-secation{
+    height: auto;
+    width: 100%;
+    /* text-align: center; */
+    /* background-color: rgb(211, 173, 173); */
+}
+#main-container #banner-secation h2{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px 0;
+    text-align: center;
+    /* line-height: 200px; */
+}
+/* .container-fluid .container hr{
+    height: 5px;
+    width: 50%;
+    background-color: rgb(187, 192, 192);
+} */
+#main-container #banner-secationh3{
+    padding: 20px 0;
+}
+#main-container #banner-secation #banner-row{
+    padding: 0;
+    margin: 0;
+    /* border: 2px solid gray; */
+}
+#main-container #banner-secation #banner-row input{
+    margin: 50px 0;
+}
+#main-container #banner-secation #banner-row .message{
+    height: 150px;
+    width: 70%;
+}

@@ -1,0 +1,92 @@
+#slider-bg{
+   background-image: url('images/b111.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 800px;
+}
+#slider-bg #text-sl{
+   padding: 20px;
+   color: white;
+}
+#slider-bg #text-sl h3{
+   font-size: 40px;
+   line-height: 100px;
+   font-weight: 700;
+   color: white;
+}
+#slider-bg #text-sl p{
+   font-size: 20px;
+}
+
+#slider-bg #main-bn{
+	height: auto;
+	width: 100%;
+/*	background: red;*/
+	/* background-image: url('https://th.bing.com/th/id/R.4a674edc7f71248ec6b7c8492c2d0104?rik=7joMi2ofo5TcMw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2f1%2fb%2f73445.jpg&ehk=OEEM5MIjw693whM%2bsIBx%2bxoY4evf%2f%2fBZ03NlT2bFRLw%3d&risl=&pid=ImgRaw&r=0" alt="Los Angeles'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 600px; */
+}
+
+
+#slider-bg #main-bn #child-bn{
+    padding: 30px 0;
+}
+#slider-bg #main-bn #child-bn .wrap-sl{
+    height: auto;
+    width: 100%;
+   /* background-color: skyblue; */
+}
+#slider-bg #main-bn #child-bn .wrap-sl .item{
+    height: auto;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+/*    background-color: green;*/
+}
+#slider-bg #main-bn #child-bn .wrap-sl .item h3{
+   font-size: 20px;
+   font-weight: 700;
+   color: white;
+}
+#slider-bg #main-bn #child-bn .wrap-sl .item p{
+   color: white;
+}
+#slider-bg #main-bn #child-bn .wrap-sl .item p strong{
+   font-weight: 600;
+   color: white;
+}
+#slider-bg #main-bn #child-bn .wrap-sl .item h4{
+   font-size: 20px;
+   font-weight: 700;
+   padding: 20px 0;
+   color: white;
+}
+#slider-bg #main-bn #child-bn .wrap-sl .item img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+#slider-bg #main-bn #child-bn .wrap-sl .item:nth-child(2){
+   text-align: center;
+   border-radius: 2px;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: black;
+}
+#slider-bg #main-bn #child-bn .wrap-sl .item:nth-child(2) h3{
+   line-height: 50px;
+}
+
+
+@media (max-width:920px) and (min-width:200px){
+   #slider-bg{
+      background-image: url('images/b111.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% 1500px;
+   }
+   #slider-bg #main-bn #child-bn .wrap-sl .item:nth-child(2){
+      width: 90%;
+   }
+}
